@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>>فرم ثبت نام باشگاه</title>
+  <style>
+    /* استایل دهی به فرم */
+    form {
+      width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    /* استایل دهی به ورودی ها */
+    input[type="text"], input[type="number"], input[type="date"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+
+    /* استایل دهی به دکمه ثبت نام */
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <a href="bashghah.html">  دوره های شرکت کننده</a><br>
+  <a href="bashgha2.html">  برنامه حضور</a>
+  <form method="post" action="register.php">
+    <h2>فرم ثبت نام</h2>
+    <input type="text" name="name" placeholder="نام" required>
+    <input type="text" name="lastName" placeholder="نام خانوادگی" required>
+    <input type="text" name="fatherName" placeholder="نام پدر" required>
+    <input type="text" name="name" placeholder="کد ملی" required>
+    <input type="number" name="height" placeholder="قد (سانتیمتر)" required>
+    <input type="number" name="weight" placeholder="وزن (کیلوگرم)" required>
+    <input type="date" name="birthDate" placeholder="تاریخ تولد" required>
+    <input type="submit" value="ثبت نام"> 
+
+  </form>
+</body>
+</html>
+
